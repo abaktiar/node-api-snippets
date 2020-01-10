@@ -1,0 +1,25 @@
+{
+  "name": "node-ts-api-snippet",
+  "displayName": "Node Api Snippets",
+  "description": "Node ts api starter snippets. Few snippets to increase your productivity",
+  "version": "0.0.3",
+  "publisher": "abaktiar",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}
