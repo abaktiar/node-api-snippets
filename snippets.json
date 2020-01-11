@@ -15,10 +15,10 @@
     ],
     "description": "Create a Service Class"
   },
-  "Service Function": {
-    "prefix": ["sf", "service function"],
+  "Service Method": {
+    "prefix": ["sm", "service method"],
     "body": [
-      "${1:myFunction} = async ($2) => {",
+      "${1:myMethod} = async ($2) => {",
       "\ttry {",
       "\t\t$3",
       "\t} catch (error) {",
@@ -27,7 +27,7 @@
       "\t}",
       "};"
     ],
-    "description": "Create a service function"
+    "description": "Create a service method"
   },
   "Controller Calss": {
     "prefix": ["cc", "controller class"],
@@ -44,10 +44,10 @@
     ],
     "description": "Create a Controller Class"
   },
-  "Controller Function": {
-    "prefix": ["cf", "controller function"],
+  "Controller Method": {
+    "prefix": ["cm", "controller method"],
     "body": [
-      "${1:myFunction} = async (req: Request, res: Response, next: Next) => {",
+      "${1:myMethod} = async (req: Request, res: Response, next: Next) => {",
       "\ttry {",
       "\t\t$2",
       "\t} catch (error) {",
@@ -55,6 +55,6 @@
       "\t}",
       "};"
     ],
-    "description": "Create a controller function"
+    "description": "Create a controller method"
   }
 }
