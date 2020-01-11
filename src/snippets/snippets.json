@@ -29,7 +29,7 @@
     ],
     "description": "Create a service method"
   },
-  "Controller Calss": {
+  "Controller Class": {
     "prefix": ["cc", "controller class"],
     "body": [
       "import BaseController from '../policies/BaseController';",
