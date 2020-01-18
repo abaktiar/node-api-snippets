@@ -100,7 +100,7 @@
   "Service Create User": {
     "prefix": ["scu", "service create user"],
     "body": [
-      "createA${1User} = async (${2:user}: ${3:IUser}) => {",
+      "createA${1:User} = async (${2:user}: ${3:IUser}) => {",
       "\ttry {",
       "\t\tlet enc = { ...${2:user} };",
       "\t\tenc.password = hashSync(enc.password, genSaltSync(12));",

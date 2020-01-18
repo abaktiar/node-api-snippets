@@ -2,7 +2,7 @@
   "name": "node-ts-api-snippet",
   "displayName": "Node Api Snippets",
   "description": "Node ts api starter snippets. Few snippets to increase your productivity",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "abaktiar",
   "icon": "assets/images/node-icon.png",
   "repository": {
